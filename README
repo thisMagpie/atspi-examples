@@ -25,3 +25,25 @@ Eventually, those examples could be part of atspi itself. But probably
 it also makes sense to keep them as a different repository, so we can
 have examples written in different languages (only C written examples
 fit on atspi)
+
+# Python Examples
+
+## Running Python Examples
+
+To run python examples simply type the following into the terminal from the source
+directory:
+
+`cd python; ./example.py`
+
+Replacing "example.py" with the name of the example code you wish to run
+
+## Current Examples
+
+### print_active_window_heirarchy.py
+
+This example listens to keypress events until it gets either an F3 or and F4
+event.
+
+##### Instructions
+
+Press F3 to print the accessible hierarchy and F4 to exit
